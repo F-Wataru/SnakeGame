@@ -4,14 +4,14 @@
 Python 3.7
 
 ### 追加パッケージ
-* pygame
-* numpy
-* natsort
+* pygame==1.9.6
+* numpy==1.17.3
+* Pillow==6.2.1
 
 ## 遊び方
 えさを食べて蛇を大きく成長させるゲームです。
 蛇の長さが長くなるほど速くなります。
-蛇の頭を赤色、蛇の体とえさを緑色で表しています。
+蛇の頭を赤色、蛇の体を緑色で表しています。
 蛇の頭が壁か自身の体に衝突したらゲーム終了です。
 隠しコマンドがあります。
 
@@ -23,5 +23,5 @@ Python 3.7
 * Enter / 決定
 
 ## プレー画面
-![playscreen](SnakeGame.gif)  
-[gifの作成プログラム](gif_creater.py)
+![playscreen](./SnakeGame.gif)  
+[gifの作成プログラム](./gif_creater.py)
